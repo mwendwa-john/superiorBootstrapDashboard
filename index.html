@@ -1,0 +1,411 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="assets/images/superiorLogo.png" type="image/x-icon">
+    <title>Superior Hotels</title>
+
+    <!-- Fontawsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="overlay">
+        </div>
+        <!-- start: sidebar -->
+        <nav class="fixed-top align-top" id="sidebar-wrapper" role="navigation">
+            <div class="simplebar-content" style="padding: 0px;">
+                <a href="#" class="sidebar-brand">
+                    <span class="align-middle">Superior Hotel</span>
+                </a>
+
+                <ul class="navbar-nav align-self-stretch">
+                    <li class="sidebar-header">pages</li>
+                    <li>
+                        <a href="#" class="nav-link text-left active" role="button">
+                            <i class="fa-solid fa-chart-simple"></i>
+                            Dashboard
+                        </a>
+                    </li>
+
+                    <li class="has-sub">
+                        <a href="#appsCollapse" class="nav-link collapsed text-left" role="button" data-toggle="collapse">
+                            <i class="fa-brands fa-adn"></i>
+                            Profile
+                        </a>
+
+                        <div class="collapse menu mega-dropdown" id="appsCollapse">
+                            <div class="dropdown" aria-labelledby="navbarDropdown">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-12 px-2">
+                                            <div class="submenu-box">
+                                                <ul class="list-unstyled">
+                                                    <li><a href="#">Dashboard</a></li>
+                                                    <li><a href="#">Profile</a></li>
+                                                    <li><a href="#">Settings</a></li>
+                                                    <li><a href="#">LogOut</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="nav-link text-left" role="button">
+                        <i class="fa-solid fa-pen-fancy"></i>
+                        Report
+                    </li>
+                    
+                    <li class="sidebar-header">HR</li>
+
+                    <li class="nav-link text-left" role="button">
+                        <i class="fa-solid fa-pen-fancy"></i>
+                        Report
+                    </li>
+                    
+                    <li class="nav-link text-left" role="button">
+                        <i class="fa-solid fa-pen-fancy"></i>
+                        Report
+                    </li>
+
+                    <li class="nav-link text-left" role="button">
+                        <i class="fa-solid fa-pen-fancy"></i>
+                        Report
+                    </li>
+
+                    <li class="nav-link text-left" role="button">
+                        <i class="fa-solid fa-pen-fancy"></i>
+                        Report
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- end: sidebar -->
+
+        <!-- start: page content -->
+        <div id="page-content-wrapper">
+            <div id="content">
+                <div class="container-fluid p-0 px-lg-0 px-md-0">
+                    <nav class="navbar navbar-expand my-navbar">
+                        <div id="bar" class="nav-icon1 hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <!-- start: top bar search bar -->
+                        <form class="d-none d-sm-inline-block form-inline navbar-search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="search for...">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <!-- end: top bar search bar -->
+
+                        <!-- start: top bar nav -->
+                        <ul class="navbar-nav m-auto">
+                            <li class="nav-item dropdown d-sm-none">
+                                <div class="dropdown-menu dropdown-menu-right p-3">
+                                    <form class="form-inline mr-auto w-100 navbar-search">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="search for...">
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary" type="button">
+                                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link">
+                                    <i class="fa-solid fa-bell fs-3"></i>
+                                    <span class="badge badge-danger badge-counter">3+</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link">
+                                    <i class="fa-solid fa-envelope fs-3"></i>
+                                    <span class="badge badge-danger badge-counter">10+</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="userDropdown" role="button" data-toggle="dropdown">
+                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Mwendwa John</span>
+                                    <img src="assets/images/profile-1.jpg" alt="user" class="img-profile rounded-circle">
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- end: top bar nav -->
+                    </nav>
+                </div>
+                <!-- start: page main content -->
+                <div class="container-fluid px-lg-4">
+                    <div class="row">
+                        <div class="col-md-12 mt-lg-4 mt-4">
+                            <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                                <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+                                <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                                    <i class="fa-solid fa-download"></i>
+                                    Generate report
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">Sales</h5>
+                                            <h1 class="display-5 mt-1 mb-3">2.4534</h1>
+                                            <div class="mb-1">
+                                                <span class="text-danger"><i class="fa-solid fa-arrow-down"></i>364</span>
+                                                <span class="text-muted">Since Last week</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">Sales</h5>
+                                            <h1 class="display-5 mt-1 mb-3">2.4534</h1>
+                                            <div class="mb-1">
+                                                <span class="text-danger"><i class="fa-solid fa-arrow-down"></i>364</span>
+                                                <span class="text-muted">Since Last week</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">Sales</h5>
+                                            <h1 class="display-5 mt-1 mb-3">2.4534</h1>
+                                            <div class="mb-1">
+                                                <span class="text-danger"><i class="fa-solid fa-arrow-down"></i>364</span>
+                                                <span class="text-muted">Since Last week</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-sm-3">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title mb-4">Sales</h5>
+                                            <h1 class="display-5 mt-1 mb-3">2.4534</h1>
+                                            <div class="mb-1">
+                                                <span class="text-danger"><i class="fa-solid fa-arrow-down"></i>364</span>
+                                                <span class="text-muted">Since Last week</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="d-md-flex align-items-center">
+                                        <div>
+                                            <h4 class="card-title">Employees</h4>
+                                            <h5 class="card-subtitle">Overview of employees</h5>
+                                        </div>
+                                        <div class="ml-auto">
+                                            <div class="dl">
+                                                <select name="" id="" class="custom-select">
+                                                    <option value="0" selected>Monthly</option>
+                                                    <option value="0">Weekly</option>
+                                                    <option value="0">Daily</option>
+                                                    <option value="0">Yearly</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table v-middle">
+                                        <thead>
+                                            <tr>
+                                                <th class="border-top-0">#</th>
+                                                <th class="border-top-0">Profile</th>
+                                                <th class="border-top-0">Employee Name</th>
+                                                <th class="border-top-0">Employee ID</th>
+                                                <th class="border-top-0">Mobile</th>
+                                                <th class="border-top-0">Role</th>
+                                                <th class="border-top-0">Payment</th>
+                                                <th class="border-top-0">Join Date</th>
+                                                <th class="border-top-0">Leave</th>
+                                                <th class="border-top-0">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>
+                                                    <img src="assets/images/profile-1.jpg" alt="img" class="profile-photo">
+                                                </td>
+                                                <td>Mwendwa John</td>
+                                                <td>Emp-690</td>
+                                                <td>0706299339</td>
+                                                <td>Software Developer</td>
+                                                <td class="warning">Pending</td>
+                                                <td>4 Oct 2023</td>
+                                                <td class="success">Done</td>
+                                                <td>
+                                                    <a class="primary" href="#">Edit</a>
+                                                    <a class="danger" href="#">Delete</a>
+                                                </td>
+                                            </tr>
+                                            
+                                            <tr>
+                                                <td>1</td>
+                                                <td>
+                                                    <img src="assets/images/profile-1.jpg" alt="img" class="profile-photo">
+                                                </td>
+                                                <td>Mwendwa John</td>
+                                                <td>Emp-690</td>
+                                                <td>0706299339</td>
+                                                <td>Software Developer</td>
+                                                <td class="warning">Pending</td>
+                                                <td>4 Oct 2023</td>
+                                                <td class="success">Done</td>
+                                                <td>
+                                                    <a class="primary" href="#">Edit</a>
+                                                    <a class="danger" href="#">Delete</a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>1</td>
+                                                <td>
+                                                    <img src="assets/images/profile-1.jpg" alt="img" class="profile-photo">
+                                                </td>
+                                                <td>Mwendwa John</td>
+                                                <td>Emp-690</td>
+                                                <td>0706299339</td>
+                                                <td>Software Developer</td>
+                                                <td class="warning">Pending</td>
+                                                <td>4 Oct 2023</td>
+                                                <td class="success">Done</td>
+                                                <td>
+                                                    <a class="primary" href="#">Edit</a>
+                                                    <a class="danger" href="#">Delete</a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>1</td>
+                                                <td>
+                                                    <img src="assets/images/profile-1.jpg" alt="img" class="profile-photo">
+                                                </td>
+                                                <td>Mwendwa John</td>
+                                                <td>Emp-690</td>
+                                                <td>0706299339</td>
+                                                <td>Software Developer</td>
+                                                <td class="warning">Pending</td>
+                                                <td>4 Oct 2023</td>
+                                                <td class="success">Done</td>
+                                                <td>
+                                                    <a class="primary" href="#">Edit</a>
+                                                    <a class="danger" href="#">Delete</a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>1</td>
+                                                <td>
+                                                    <img src="assets/images/profile-1.jpg" alt="img" class="profile-photo">
+                                                </td>
+                                                <td>Mwendwa John</td>
+                                                <td>Emp-690</td>
+                                                <td>0706299339</td>
+                                                <td>Software Developer</td>
+                                                <td class="warning">Pending</td>
+                                                <td>4 Oct 2023</td>
+                                                <td class="success">Done</td>
+                                                <td>
+                                                    <a class="primary" href="#">Edit</a>
+                                                    <a class="danger" href="#">Delete</a>
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>1</td>
+                                                <td>
+                                                    <img src="assets/images/profile-1.jpg" alt="img" class="profile-photo">
+                                                </td>
+                                                <td>Mwendwa John</td>
+                                                <td>Emp-690</td>
+                                                <td>0706299339</td>
+                                                <td>Software Developer</td>
+                                                <td class="warning">Pending</td>
+                                                <td>4 Oct 2023</td>
+                                                <td class="success">Done</td>
+                                                <td>
+                                                    <a class="primary" href="#">Edit</a>
+                                                    <a class="danger" href="#">Delete</a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end: page main content -->
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="text-center small text-muted">
+                                <p class="primary">
+                                    &copy; <span id="currentYear"></span> Superior Hotels Kenya | Human Resource Management System
+                                </p>
+                            </div>
+                            <script>
+                                const currentYear = new Date().getFullYear();
+                                document.getElementById("currentYear").textContent = currentYear;
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <!-- end: page content -->
+    </div>
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- custom JS -->
+    <script src="assets/main.js"></script>
+</body>
+</html>
